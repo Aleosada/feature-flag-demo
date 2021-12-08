@@ -1,0 +1,23 @@
+version: "3.8"
+services:
+  postgres:
+    hostname: postgres
+    image: postgres:14.1
+    environment:
+      POSTGRES_PASSWORD: admin
+      POSTGRES_USER: admin
+      POSTGRES_DB: unleash
+    ports:
+      - "5432:5432"
+
+  unleash:
+    hostname: unleash
+    image: unleashorg/unleash-server:4.3.2
+    environment:
+      DATABASE_HOST: postgres
+      DATABASE_NAME: unleash
+      DATABASE_USERNAME: admin
+      DATABASE_PASSWORD: admin
+      DATABASE_SSL: "false"
+    ports:
+      - "4242:4242"

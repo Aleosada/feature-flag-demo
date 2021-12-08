@@ -1,0 +1,10 @@
+unleash:
+  AppName: "default"
+  Url: "http://localhost:4242/api"
+  ProjectName: "default"
+  Environment: "development"
+  Authorization: "*:development.0913e307d72df7bcd4510d884e0e24e7a2f8f1375b288aacda32dc28"
+  FlagName: "flag1"
+  UserId: "osadaal"
+  Properties:
+    - Fund: "Fundo"
