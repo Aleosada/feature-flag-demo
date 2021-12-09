@@ -8,3 +8,13 @@ unleash:
   UserId: "osadaal"
   Properties:
     - Fund: "Fundo"
+
+gitlab:
+  AppName: "development"
+  Url: "https://localhost:8443/api/v4/feature_flags/unleash/34"
+  InstanceId: "Q44jLVqN5XixVR3D8m-P"
+  Authorization: "pcSbps4Vze41mWrzJAob"
+  FlagName: "flag1"
+  UserId: "osadaal"
+  Properties:
+    - Fund: "Fundo"

@@ -11,7 +11,7 @@ type Config struct {
     UserId string
     FlagName string
     Properties map[string]string
-
+    InstanceId string
 }
 
 var AppConfig Config
